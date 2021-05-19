@@ -12,6 +12,6 @@ window.addEventListener('load', function(){
   })
 
   pullDownButton.addEventListener('click', function() {
-    console.log("click OK")
+    pullDownParents.setAttribute("style", "display:block;")
   })
 })
