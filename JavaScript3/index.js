@@ -12,6 +12,7 @@ window.addEventListener('load', function(){
     })
   
     pullDownButton.addEventListener('click', function() {
+      debugger
       // プルダウンメニューの表示と非表示の設定
       if (pullDownParents.getAttribute("style") == "display:block;") {
         // pullDownParentsにdisplay:block;が付与されている場合（つまり表示されている時）実行される
