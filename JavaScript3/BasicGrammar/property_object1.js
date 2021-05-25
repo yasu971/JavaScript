@@ -1,9 +1,12 @@
-let human = { name: 'yamada' }
-console.log(human)
+let human = {
+  name: "yamada",
+  age: 25,
+  address: 'Tokyo'
+}
 
-human.age = 25
-human['address'] = 'Tokyo'
+console.log(human.name)
 
-console.log(human)
+human.name = "yabe"
+console.log(human.name)
 
 //  Googleﾃﾞｨﾍﾟﾛｯﾊﾟﾂｰﾙで、実行してください。
