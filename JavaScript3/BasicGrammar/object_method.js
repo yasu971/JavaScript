@@ -1,11 +1,18 @@
 let human = {
   name: "Tom",
-  gender: "man",
+  gender: man,
   age: 22,
 
+  walk: function(){...},
   talk: function(){...},
+  eat: function(){...}
 }
 
-human.talk()
+human.walk()
+// walkメソッドが実行される
 
+human.talk()
 // talkメソッドが実行される
+
+human.eat()
+// eatメソッドが実行される
