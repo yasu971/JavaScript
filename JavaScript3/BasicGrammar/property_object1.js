@@ -1,5 +1,9 @@
 let human = { name: 'yamada' }
+console.log(human)
 
-console.log(human.name)
+human.age = 25
+human['address'] = 'Tokyo'
+
+console.log(human)
 
 //  Googleﾃﾞｨﾍﾟﾛｯﾊﾟﾂｰﾙで、実行してください。
