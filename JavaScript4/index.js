@@ -8,5 +8,9 @@ window.addEventListener('load', function(){
   pullDownButton.addEventListener('mouseout', function(){
     console.log("mouseout OK")
   })
-    
+
+  
+  pullDownButton.addEventListener('click', function() {
+    console.log("click OK")
+  })
 })
