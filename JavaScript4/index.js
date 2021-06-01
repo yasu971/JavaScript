@@ -6,7 +6,7 @@ window.addEventListener('load', function(){
   })
 
   pullDownButton.addEventListener('mouseout', function(){
-    console.log("mouseout OK")
+    pullDownButton.removeAttribute("style", "background-color:#FFBEDA;")
   })
 
   
