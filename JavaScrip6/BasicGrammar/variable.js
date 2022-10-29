@@ -5,4 +5,3 @@ sample = "おはよう"
 
 var sample = "おはよう"
 // 再定義OK
-Footer
