@@ -8,5 +8,3 @@ let human = {
   
   human.name = "yabe"
   console.log(human.name)
-  
-  //  Googleﾃﾞｨﾍﾟﾛｯﾊﾟﾂｰﾙで、実行してください。
